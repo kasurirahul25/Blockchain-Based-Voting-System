@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blockchain Voting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Blockchain Voting System</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#vote">Vote</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About the Voting System</h2>
+            <p>This voting system uses blockchain technology to ensure transparency, security, and integrity in the voting process.</p>
+        </section>
+
+        <section id="vote">
+            <h2>Cast Your Vote</h2>
+            <form id="votingForm">
+                <label for="candidate">Select Candidate:</label>
+                <select id="candidate" name="candidate" required>
+                    <option value="" disabled selected>Select your candidate</option>
+                    <option value="candidate1">Candidate 1</option>
+                    <option value="candidate2">Candidate 2</option>
+                    <option value="candidate3">Candidate 3</option>
+                </select>
+                <br>
+                <button type="submit">Vote</button>
+            </form>
+        </section>
+
+        <section id="results">
+            <h2>Voting Results</h2>
+            <p>The results will be displayed here once the voting is complete.</p>
+            <div id="resultsDisplay">
+                <!-- Results will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Blockchain Voting System. All rights reserved.</p>
+        <div id="contact">
+            <h3>Contact Us</h3>
+            <p>Email: support@votingsystem.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
